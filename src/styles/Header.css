@@ -82,6 +82,37 @@
 }
 
 
+.buttonContainer {
+    /* border: 1px solid green; */
+    margin: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    /* margin: 10px 0 10px 0; */
+}
+
+.loginBtn {
+    border: none;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    padding: 8px 16px;
+    color: #f9f9f9;
+    letter-spacing: 1.5px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    transition: all 0.2s ease 0s;
+}
+
+.loginBtn:hover, .loginBtn>h2:hover {
+    background-color: #f9f9f9;
+    color: #000;
+    border-color: transparent;
+}
+
+
+
+
 
 
 @media (max-width:768px) {

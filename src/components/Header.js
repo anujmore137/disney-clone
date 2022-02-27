@@ -48,13 +48,10 @@ const Header = () => {
           />
           <span>MOVIES</span>
         </a>
-        
       </div>
 
       <div className="buttonContainer">
-        <button className="login">
-          <h2>LOGIN</h2>
-        </button>
+        <button className="loginBtn">LOGIN</button>
       </div>
     </nav>
   );
